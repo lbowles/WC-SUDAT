@@ -1,0 +1,22 @@
+[debug] [2022-09-06T08:34:50.114Z] ----------------------------------------------------------------------
+[debug] [2022-09-06T08:34:50.115Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2022-09-06T08:34:50.115Z] CLI Version:   11.4.2
+[debug] [2022-09-06T08:34:50.115Z] Platform:      darwin
+[debug] [2022-09-06T08:34:50.115Z] Node Version:  v16.16.0
+[debug] [2022-09-06T08:34:50.116Z] Time:          Tue Sep 06 2022 10:34:50 GMT+0200 (South Africa Standard Time)
+[debug] [2022-09-06T08:34:50.116Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-06T08:34:50.117Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-09-06T08:34:50.152Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-06T08:34:50.152Z] > authorizing via signed-in user (lspbowles@gmail.com)
+[debug] [2022-09-06T08:34:50.152Z] [iam] checking project wc-sudat for permissions ["firebase.projects.get"]
+[debug] [2022-09-06T08:34:50.152Z] > refreshing access token with scopes: []
+[debug] [2022-09-06T08:34:50.153Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-09-06T08:34:50.153Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-06T08:34:50.688Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-09-06T08:34:50.688Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-06T08:34:50.743Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/wc-sudat:testIamPermissions [none]
+[debug] [2022-09-06T08:34:50.743Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/wc-sudat:testIamPermissions x-goog-quota-user=projects/wc-sudat
+[debug] [2022-09-06T08:34:50.743Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/wc-sudat:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-09-06T08:34:51.157Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-09-06T08:34:51.157Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
